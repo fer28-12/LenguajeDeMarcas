@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Titulo</title>
+</head>
+<body>
+    <dialog id="miDialogo">
+<p>Este es un mensaje en una ventana de diálogo.</p>
+<button id="cerrar">Cerrar</button>
+</dialog>
+<button id="abrir">Abrir diálogo</button>
+</body>
+<script>
+const dialogo = document.getElementById('miDialogo');
+document.getElementById('abrir').onclick = () => dialogo.showModal();
+document.getElementById('cerrar').onclick = () => dialogo.close();
+</script>
+</body>
+</html>
