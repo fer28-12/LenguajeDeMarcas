@@ -1,4 +1,12 @@
-Despues de arrastrar y soltar el elemento podemos observar en la consola que hay dos mensajes-->"empezó el drag" cuando 
-agarramos el elemento y -->"se soltó el elemento" cuando lo soltamos
+<body>
+<div draggable="true"
+ondragstart="console.log('empezó el drag')"
+ondragend="console.log('Se soltó el elemento')"
+style="width:120px;height:60px;background:#4caf50;color:white;text-align:center;line-height:60px;">
+Arrástrame
+</div>
+</body>   
+<!--Despues de arrastrar y soltar el elemento podemos observar en la consola que hay dos mensajes"empezó el drag" cuando 
+agarramos el elemento y "se soltó el elemento" cuando lo soltamos
 La ejecución del ondragstart empieza en el momento en el que agarramos el elemento
 Y la ejecución del ondragend cuando soltamos ese elemento
